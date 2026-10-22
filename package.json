@@ -1,8 +1,20 @@
 {
   "name": "se_project_react",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/C-Drivers/se_project_react#readme",
+  "bugs": {
+    "url": "https://github.com/C-Drivers/se_project_react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Drivers/se_project_react.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "vite.config.js",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
