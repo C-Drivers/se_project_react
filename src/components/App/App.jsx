@@ -2,9 +2,10 @@ import { useState } from "react";
 import "./App.css";
 import Header from "../Header/Header";
 import Main from "../Main/Main.jsx";
+import ModalWithForm from "../ItemModal/ItemModal.jsx";
 
 function App() {
-  const [weatherData, setWeatherData] = useState({ type: "hot" });
+  const [weatherData, setWeatherData] = useState({ type: "cold" });
 
   return (
     <div className="page">
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Main weatherData={weatherData} />
       </div>
+      <ModalWithForm/>
     </div>
   );
 }

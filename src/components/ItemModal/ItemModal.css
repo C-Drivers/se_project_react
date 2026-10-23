@@ -1,0 +1,14 @@
+.modal {
+  position: fixed;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  background-color: #0000004D;
+  display: flex;
+  align-items: center;
+}
+
+.modal__container{
+    background-color: white;
+}
