@@ -8,7 +8,7 @@ function ModalWithForm() {
           Close
         </button>
         <form className="modal__form">
-          <h2>New Garment</h2>
+          <h2 className="modal__title">New Garment</h2>
 
           <label htmlFor="name" id="name" className="modal__label">
             Name{" "}
@@ -51,6 +51,9 @@ function ModalWithForm() {
               Cold
             </label>
           </fieldset>
+          <button type="submit" className="modal__submit-button">
+            Add garment
+          </button>
         </form>
       </div>
     </div>

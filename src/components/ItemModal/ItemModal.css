@@ -1,14 +1,32 @@
 .modal {
   position: fixed;
-  top: auto;
-  left: auto;
-  right: auto;
-  bottom: auto;
-  background-color: #0000004D;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0000004d;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.modal__container{
-    background-color: white;
+.modal__container {
+  position: relative;
+  background-color: white;
+  padding: 28px 28px 36px;
+}
+
+.modal__close-button {
+  position: absolute;
+  top: 28px;
+  right: 28px;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__title {
+  margin: 0;
 }
